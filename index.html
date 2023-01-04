@@ -11,14 +11,25 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="assets/imges/nizam.png">
-        </div>
+        
         <nav>
+            <div class="logo">
+                <img src="assets/imges/nizam.png">
+            </div>
             <ul>
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="mo1.html"> Module 1</a></li>
                 <li><a href="mod2.html"> Module 2</a></li>
+                <li>
+                    <a href="mod2.html"> Milstone 1</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="mo1.html"> Module 1</a></li>
+                        <li><a href="mod2.html"> Module 2</a></li>
+                        <li><a href="mod2.html"> Module 3</a></li>
+                        <li><a href="mod2.html"> Module 4</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
         <h1> Welcome to my Block</h1>
@@ -121,7 +132,7 @@
                 <input type="submit" value="Submit">
             </form>
 
-
+            
         </section>
         <section class="table">
             <h2> Table, tr, th, td, caption, colspan attribute, rowspan attribute</h2>
@@ -169,6 +180,57 @@
                 </tbody>
             </table>
 
+        </section>
+        <section>
+            <h2> Personal Form</h2>
+            <form>
+                <fieldset>
+                    <legend> Fill This Form</legend>
+                    <label for="name">Your name
+                        <input type="text" id="name" placeholder="Your Name">
+                    </label> 
+                    <label for="name">Father's Name
+                        <input type="text" id="name" placeholder="Your Father's Name">
+                    </label> 
+                    <label for="name">Mother's Name
+                        <input type="text" id="name" placeholder="Your Father's Name">
+                    </label> 
+                    <label for="name">Mobile Number
+                        <input type="number" id="name" placeholder="Your Mobile Number">
+                    </label> 
+                    <label for="name">Your Email
+                        <input type="email" id="email" placeholder="Your Email Address">
+                    </label> 
+                    <label for="date">Date of Birth
+                        <input type="date" id="date">
+                    </label> 
+                    <label for="male"> Gender:
+                        <input type="radio" name="gender" id="male">
+                        Male
+                    
+                        <input type="radio" name="gender" id="female">
+                        Female
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend> Your Present Address</legend>
+                    <textarea name="" id="" cols="70" rows="5">
+
+                    </textarea>
+                </fieldset>
+                <label for="green">Your Favourite Color:
+                    <input type="radio" name="color" id="green">
+                    Green
+                    <input type="radio" name="color" id="red">
+                    Red
+                    <input type="radio" name="color" id="blue">
+                    Blue
+                    <input type="radio" name="color" id="other">
+                    Other
+                </label> 
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer>

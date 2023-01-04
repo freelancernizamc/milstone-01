@@ -4,14 +4,14 @@
     width: 90px;
     height: 90px;
 }
-nav ul{
+nav> ul{
     display: flex;
     justify-content: center;
     
 }
 nav li{
     list-style: none;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 nav li:hover{
     background-color: aqua;
@@ -19,6 +19,16 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color: black;
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-left: 0px;
+    padding-bottom: 2px;
+}
+nav li:hover .dropdown{
+    display: block;
 }
 label{
     display: block;
