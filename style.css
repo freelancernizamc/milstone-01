@@ -1,6 +1,13 @@
 
+
+.logo img{
+    width: 90px;
+    height: 90px;
+}
 nav ul{
     display: flex;
+    justify-content: center;
+    
 }
 nav li{
     list-style: none;
