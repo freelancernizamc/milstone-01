@@ -1,0 +1,27 @@
+#green{
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    width: 700px;
+    height: 500px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkTIaNlb_QtSZy6-vpOlSqT8dRiHMCZpUd9cmniTzS8ZJqLcWtVOm29bM6qXBlD2mN-c7BROdbaJ7vZUPjUBpvFIjxlQ56dplmGt1atNYsO6KeYwKwailfZMxcBPyB40UvJe8MYpzkPUPZQbgMvZeYwlU7hTpFy0h5G6c3y_VgvXzbaQQZZiA8QLmkVQ/w400-h285/I%20will%20convert%20PSD%20to%20HTML%20%20figma%20to%20HTML%20%20xd%20to%20HTML%20CSS%20bootstrap%205%20responsive%20website.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 20px;
+}
+.yello{
+    text-align: justify;
+    text-shadow: 1;
+    background-color: blue;
+    color: bisque;
+    font-size: x-large;
+    width: 600px;
+    height: 500px;
+    padding: 100px;
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEi_c7--TCR79IrGmBROPMchvEgJXEOmYY4Io1oYE05ap7h9sRl8T4jQxLuuaC6fq7_IWtgtcT4_LkLtbjRJPqBCreFq70ucIMORAns_mlApm2uIX_3j8bpVUmgORZgp6kRSnv4kLqZs4YnL5sSnNLQQC4FKMhg3ztjBf8mg3las881zofEidqOmSulPEg=s200);
+    background-repeat:no-repeat;
+    background-position: bottom right;
+}
