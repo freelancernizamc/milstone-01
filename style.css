@@ -30,6 +30,19 @@ nav li .dropdown{
 nav li:hover .dropdown{
     display: block;
 }
+marquee{
+    background-color: black;
+    color: yellow;
+}
+video{
+    margin-left: 500px;
+}
+audio{
+    margin-left: 500px;
+}
+iframe{
+    margin-left: 500px;
+}
 label{
     display: block;
     margin-bottom: 9px;
@@ -46,6 +59,23 @@ td,th{
     border: 2px solid lightgray;
     padding: 5px 15px;
 }
+.green{
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    background-color: green;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 140px;
+    border-radius: 50px;
+    background-color: red;
+
+}
+
 footer{
     text-align: center;
 }
