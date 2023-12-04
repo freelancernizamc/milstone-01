@@ -107,6 +107,13 @@ marquee {
 video {
   margin-left: 500px;
 }
+.video-text{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+  background-color: yellow;
+}
 
 audio {
   margin-left: 500px;
