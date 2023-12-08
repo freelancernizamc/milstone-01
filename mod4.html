@@ -6,6 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milestone 01: Module 04 Practice</title>
+    <style>
+        td{
+            border: 1px solid lightgray;
+        }
+        .dropdown-practice > ul >li{
+            display: inline;
+            margin-right: 10px;
+        }
+        .dropdown-practice li .drop{
+            display: none;
+            position: absolute;
+            background-color: lightpink;
+            margin-left: 30px;
+        }
+        .dropdown-practice li:hover > .drop{
+            display: block;
+        }
+    </style>
     <link rel="icon" type="image/x-icon" href="./assets/imges/nizam.png">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -54,7 +72,7 @@
 
         </div>
     </header>
-    <h2 style="text-align: center;font-size: 30px;font-style: italic;text-decoration: underline;">Module 4 Practice</h2>
+    <h2 class="title-style">Module 4 Practice</h2>
     <br>
     <h2 style="text-align: center;" class="video-text"> Video 01: 4-1 HTML5 Audio, video, youtube video, embed iframe</h2>
     <div class="video">
@@ -163,11 +181,87 @@
                     </fieldset>
                     <input type="reset" value="Reset">
                     <input type="submit" value="Submit">
-                </form>
-    
+                </form><br>
+                <h2 class="video-text">Video 4-4 Table, tr, th, td, caption, colspan attribute, rowspan attribute</h2>
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>Bill gates
+                        </td>
+                        <td>$1000
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Steve Jobs
+                        </td>
+                        <td>$1200
+                        </td>
+                    </tr>
+                        <tr>
+                        <td>3</td>
+                        <td>Larry Page
+                        </td>
+                        <td>$1200
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <h2 class="video-text">Video 4-5 Simple navbar and internal navigation among files</h2>
+                <p style="text-align:center;">flex use in parent tag but inline use in child tag.</p>
+                <h2 class="video-text">Video 4-6 (optional) Add nested menu dropdown option on mouseover</h2>
+                <div class="dropdown-practice">
+                    <ul>
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>Milstone
+                            <ul class="drop">
+                                <li>Milstone 1</li>
+                                <li>Milstone 2</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
                 
             </section><br>
-            <footer>
+            <section>
+                <h2 class="video-text">
+                    Video 4-7 All html tags, everything you need to know about html</h2>
+                    <p>Search Google HTML5</p>
+                    <h2 class="video-text">Video 4-8 All html attributes Title attribute, comments, alt, data
+                    </h2>
+                    <p>Title attribute= when mouse hover then show text</p>
+            </section>
+            <section>
+                <h2 class="video-text">Video 4-9 Module summary and Emmet cheatsheet</h2>
+                <pre>
+                    Immediate tag such as== ul>li
+
+                    Emmat: 
+
+                    section>article.blog*5>h3{My Blog-$}+p>lorem50 then enter
+
+                    Search google: emmet cheat sheet
+
+                    ^=Clent up =upore uta
+                </pre>
+            </section>
+
+            <section>
+                <h2 style="background-color: black; color:magenta; text-align:center; font-size:30px;">QUIZ</h2>
+                <div style="margin-left: 50px;">
+                    <h3>Question 01: Which html attribute will you need to see the play button on your audio video in the browser? Ans: Controls.</h3>
+                    <h3>Question 02: Which tag is used to play YouTube videos on your website? Ans: &lt;iframe>&lt;/iframe></h3>
+                    <h3>Question 03: Which one is not a semantic tag among all the options below? Ans: div</h3>
+                    <h3>Question 04: Which tag should be used to write a blog in html5? Ans: &lt;article>&lt;/article></h3>
+                    <h3>Question 05: Which tag will you use to create a horizontal line? (if needed google it) Ans: hr</h3>
+                    <h3>Question 06: Which of the following is used to specify the beginning of a table’s row? Ans: &lt;tr></h3>
+                    <h3>Question 07: Which of the following tags gives a caption to the table? Ans: &lt;caption></h3>
+                    <h3>Question 08: What does colspan do? Ans: Allows a single table cell to span the width of more than one cell or column.</h3>
+                    <h3>Question 09: Why is the data attribute used in html? (if needed google it) Ans: It is used to provide custom data.</h3>
+                    <h3>Question 10: Which of the following is the correct syntax to display the hyperlinks without any underline? Ans: a{text-decoration: none;}</h3>
+                </div>
+            </section>
                 <footer>
                     <div class="footer">
                     <div class="footer-part1">
